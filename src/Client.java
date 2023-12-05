@@ -3,7 +3,7 @@ import java.net.*;
 
 public class Client {
     public static void main(String[] args) throws IOException {
-        String hostName = "localhost";
+        String hostName = "172.22.40.1";
         int port = 1234;
 
         System.out.println("Tentando conectar ao servidor " + hostName + " na porta " + port);
